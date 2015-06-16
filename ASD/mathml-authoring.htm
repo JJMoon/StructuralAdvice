@@ -1,0 +1,312 @@
+<html>
+<!-- doc:features -->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<link rel="stylesheet" href="/misc/main.css" type="text/css">
+<title>MathPlayer: Authoring</title>
+<!-- head.inc: include file for head stuff -->
+<script language="javascript">
+<!--Hide from old browsers
+// This script will make all pages frame-proof, i.e. load into top window
+// must not be included by frames pages
+if (top != self) {
+   top.location.href = location.href;
+}
+// Stop hiding from old browsers -->
+</script>
+
+
+</head>
+
+<body marginheight="0" marginwidth="0" leftmargin="0" topmargin="0">
+<!-- topbar.inc: Top navigation bar for all pages other than the Home page -->
+
+<a name="top"></a>
+<table class="topbar" width="100%" height=40 border="0" cellpadding="0" cellspacing="0" bgcolor=white>
+
+	<map name="banner_buttons">
+		<area type="rect" coords=" 17,12, 74,42" href="/">
+		<area type="rect" coords=" 74,12,151,42" href="/features/">
+		<area type="rect" coords="151,12,231,42" href="/webmath/">
+		<area type="rect" coords="231,12,282,42" href="/sales/">
+		<area type="rect" coords="282,12,350,42" href="/support/">
+		<area type="rect" coords="350,12,412,42" href="/search/">
+		<area type="rect" coords="412,12,493,42" href="/company/">
+	</map>
+	<tr>
+		
+		<td width=132 valign="top" align="left"><a href="/"><img width=132 height=53 src="/misc/other_corner.gif" border=0></a></td>
+		<td width="100%" valign="top" align="left"><img usemap="#banner_buttons" width=500 height=53 src="/misc/other_buttons.gif" border=0></td>
+	</tr>
+
+	<tr>  <!-- dividing lines -->
+		<td width=132 height=5 valign="top" align="left" bgcolor="white"><spacer type="block" height=5 width=100></td>
+		<td width="100%" height=5 valign="top" align="left" bgcolor="#006699"><spacer type="block" height=5></td>
+		
+	</tr>
+
+</table>
+
+<table class="menuandcontent" border="0" cellpadding="0" cellspacing="0" width="100%" height=100%>
+	<tr height="100%">
+		<td class="menu" width="132" valign="top" height="100%">
+			<table class="menu" height="100%" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+
+<!-- end of topbar.inc -->
+<!-- menu.inc: Features menu -->
+
+          <td valign="top" height=47 width="132"><a href="/webmath/"><img src="/webmath/misc/webmath.gif" width="132" height="47" border=0></a></td>
+        </tr>
+        <tr>
+          <td valign="top" height="100%">
+            <table class="menu" height="100%" border="0" cellpadding="10" cellspacing="0" bgcolor="#006699" width="132">
+              <tr>
+                <td width="132" height="100%" valign="top">
+
+  <p><a class="menu" href="/webmath/strategies.stm">Strategies for Math on the Web</a></p>
+  <p><a class="menu" href="/webmath/#Publishing">Publishing Math</a></p>
+  <p><a class="menu" href="/webmath/tech/dynamic.stm">Dynamic Math</a></p>
+  <p><a class="menu" href="/webmath/webeq/default.stm">Is WebEQ for You?</a></p>
+  <p><a class="menu" href="/webmath/webeq/features.stm">WebEQ Features</a></p>
+  <p><a class="menu" href="/dl/webeq.stm">Free WebEQ Evaluation</a></p>
+  <p><a class="menu" href="/features/win/mteval.stm">Free MathType Evaluation</a></p>
+  <p><a class="menu" href="/webmath/samples/default.stm">Web Math Samples</a></p>
+  <p><a class="menu" href="/webmath/mathplayer">MathPlayer</a></p>
+  <p><a class="menu" href="/webmath/tech/mathml.stm">About MathML</a></p>
+  <p><a class="menu" href="/webmath/status/"><i>MOW: A Status Report</i></a></p>
+  <p><a class="menu" href="/dl/webeq.stm"><img src="/webmath/misc/browser_ctrl.jpg" width=88 height=31 border=0></a></p>
+
+<!-- end of menu.inc -->
+
+<!-- before.inc: just before content -->
+
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+		<td width="100%" height="100%" valign="top" bgcolor="white">
+			<table class="content" border="0" cellpadding="10" cellspacing="0" width="100%">
+				<tr>
+					<td width="100%" height="100%" valign="top">
+
+<!-- end of before.inc -->
+
+
+<H1>Authoring for MathPlayer</H1>
+
+<p>A MathPlayer-ready web page is simply a normal HTML page with MathML 
+&quot;islands&quot;. You can create such a page in any HTML editor or use one of our other 
+products to create the page for you.</p>
+
+<ul>
+  <li><a href="#InstallingMathPlayer">Installing MathPlayer on Reader's Computers</a></li>
+  <li><a href="#AuthoringWithMathType">Authoring with MathType</a></li>
+  <li><a href="#AuthoringWithWebEQ">Authoring with WebEQ</a></li>
+  <li><a href="#AnatomyMathPlayerWebPage">Anatomy of a 
+  MathPlayer-enabled Web Page</a></li>
+  <li><a href="#DynamicMath">Dynamic Math with MathPlayer</a></li>
+</ul>
+
+<h2><a name="InstallingMathPlayer">Installing MathPlayer on Reader's Computers</a></h2>
+
+<p>If you are planning to author pages that require MathPlayer, you will need to 
+provide a way for your readers to install 
+MathPlayer on their computers. Please see our <a href="logo_program.stm">
+Distributing MathPlayer</a> page for instructions on how to place the &quot;Download MathPlayer&quot; link on your web pages 
+so that the download and install process is as smooth as possible for your readers.</p>
+
+<blockquote>
+
+<p><a href="default.stm"><img border="0" src="misc/MathPlayer.gif" width="88" height="31"></a></p>
+
+</blockquote>
+
+<h2><a name="AuthoringWithMathType">Authoring with MathType</a></h2>
+
+<p>There are two ways to work with MathML using our <a href="../../features">
+MathType</a> product:</p>
+
+<h3>From a Microsoft Word document:</h3>
+If you have a Microsoft Word document containing MathType and/or Equation Editor 
+equations, you can generate a web page using MathType 5.0's
+<a href="/features/win/features.stm#MathPage">MathPage</a> feature. Just choose the &quot;MathPlayer (IE5.5+ behavior)&quot; target in the MathPage dialog.<h3>
+With your favorite HTML editor:</h3>
+<p>If you normally author web pages using an HTML editor, such as Adobe's GoLive 
+or Macromedia's Dreamweaver, you can use MathType to create equations one-by-one 
+and paste them into the web page you are editing. First, go to MathType 5.0's 
+Translator facility and choose the translator named &quot;MathML 2.0 (namespace 
+attr)&quot;. Then, when you copy an equation from MathType's editing window, it will 
+be automatically translated to MathML. Just bring your HTML editor to the front, 
+place the insertion point where you want the equation and paste.</p>
+<h2><a name="AuthoringWithWebEQ">Authoring with WebEQ</a></h2>
+With our <a href="../webeq/features.stm">WebEQ Developers Suite</a>, you can 
+create MathML with the WebEQ Editor then paste it into a web page you are 
+editing. You can also write MathML or WebTeX by hand, add it to a page, then use 
+WebEQ Publisher to process the page to prepare it for Internet Explorer and 
+MathPlayer.<h2><a name="AnatomyMathPlayerWebPage">Anatomy of a 
+MathPlayer-enabled Web Page</a></h2>
+
+<p>If you want to create a web page by hand, the following outlines what needs 
+to be in the HTML page for MathPlayer to work in Internet Explorer.</p>
+<table cellSpacing="0" cellPadding="20" width="100%" border="0" style="border-collapse: collapse; background-color: #CCFFCC" bordercolor="#111111">
+  <tr bgColor="white">
+    <td vAlign="top" bgColor="#CCFFCC">
+    <pre>&lt;HTML XMLNS:m=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
+&lt;HEAD&gt;
+   &lt;OBJECT
+      ID=MathPlayer
+      CLASSID=&quot;clsid:32F66A20-7614-11D4-BD11-00104BD3F987&quot;
+   &gt;
+   &lt;/OBJECT&gt;
+   &lt;?IMPORT NAMESPACE=&quot;m&quot; IMPLEMENTATION=&quot;#MathPlayer&quot; &gt;
+&lt;/HEAD&gt;</pre>
+    <pre>...</pre>
+    <pre>&lt;p&gt;Here is some math:
+   &lt;m:math&gt;
+      &lt;m:msup&gt;
+         &lt;m:mi&gt;x&lt;/m:mi&gt;
+         &lt;m:mn&gt;2&lt;/m:mn&gt;
+      &lt;/m:msup&gt;
+      &lt;m:mo&gt;+&lt;/m:mo&gt;
+      &lt;m:mn&gt;9&lt;/m:mn&gt;
+      &lt;m:mi&gt;x&lt;/m:mi&gt;
+      &lt;m:mo&gt;+&lt;/m:mo&gt;
+      &lt;m:mn&gt;9&lt;/m:mn&gt;
+      &lt;m:mo&gt;=&lt;/m:mo&gt;
+      &lt;m:mn&gt;0&lt;/m:mn&gt;
+   &lt;/m:math&gt;
+&lt;/p&gt;</pre>
+</td>
+  </tr>
+</table>
+
+<p>Here are some details:</p>
+<ul>
+  <li>The XMLNS:M attribute in the HTML tag establishes that any element name in 
+the document prefixed by &quot;m&quot; refers to MathML 2.0.</li>
+  <li>In the HEAD element:<ul>
+    <li>The OBJECT element attaches the &quot;MathPlayer&quot; ID to the MathPlayer 
+    software itself.<ul>
+      <li>The CLASSID names MathPlayer's unique GUID that tells Internet 
+      Explorer (via the Windows Registry) where MathPlayer is installed on the 
+      local computer.</li>
+    </ul>
+    </li>
+    <li>The IMPORT processing instruction says that elements whose namespace is 
+    indicated by the &quot;m&quot; prefix is to be displayed using the software whose ID 
+    is &quot;MathPlayer&quot;.</li>
+  </ul>
+  </li>
+  <li>Internet Explorer requires that MathML (or any XML fragment) embedded in 
+  the HTML document have each element name preceded by a namespace prefix, &quot;m&quot; 
+  in this case.</li>
+</ul>
+<h2><a name="DynamicMath">Dynamic Math with MathPlayer</a></h2>
+<p>The combination of MathML and scripting in a web page is extremely powerful. 
+It allows you to add buttons, text entry, and other interactive elements that 
+change the math in the page. Here is a simple example --- when you click on the 
+button, the background colors of two terms are swapped:</p>
+<input type=button value="Show Example"
+onclick='window.open("dynomath.htm", "win", "width=325,height=150,status=1");'>
+
+<p>The source code for this example is shown below. The important points are:</p>
+<ul>
+  <li>Both HTML and MathML in the document can be manipulated using script code. 
+  To find out how to do this, get one of the many books on Dynamic HTML.</li>
+  <li>Script can refer to elements in both HTML and MathML by id. In this 
+  example, <b>eq1</b>, <b>term1</b>, and <b>term2</b> are all ids attached to 
+  various elements in the document.</li>
+  <li>After your script makes changes to a MathML instance, you must call the <b>
+  update()</b> method on the <b>math</b> element in order for your changes to 
+  show on the screen.</li>
+</ul>
+
+<table cellSpacing="0" cellPadding="20" width="100%" border="0" style="border-collapse: collapse; background-color: #FFFF00" bordercolor="#111111">
+  <tr bgColor="white">
+    <td vAlign="top" bgColor="#CCFFCC">
+<pre>&lt;HTML XMLNS:M=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
+&lt;head&gt;
+   &lt;OBJECT ID=behave1 CLASSID=&quot;clsid:32F66A20-7614-11D4-BD11-00104BD3F987&quot;&gt;&lt;/OBJECT&gt;
+   &lt;?IMPORT NAMESPACE=&quot;M&quot; IMPLEMENTATION=&quot;#behave1&quot;&gt;
+   &lt;title&gt;Introducing MathPlayer&lt;/title&gt;
+   &lt;script language=JavaScript&gt;
+      function handleClick() {
+         var color1 = document.all.term1.mathbackground;
+         var color2 = document.all.term2.mathbackground;
+         document.all.term1.mathbackground = color2;
+         document.all.term2.mathbackground = color1;
+         document.all.eq1.update();
+      }
+   &lt;/script&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+&lt;h2&gt;Expanding a binomial&lt;/h2&gt;
+&lt;p&gt;
+   &lt;m:math id=&quot;eq1&quot;&gt;
+      &lt;m:mrow&gt;
+         &lt;m:mstyle id=&quot;term1&quot; mathbackground=&quot;lightblue&quot;&gt;
+            &lt;m:mrow&gt;
+               &lt;m:msup&gt; 
+                  &lt;m:mrow&gt;
+                     &lt;m:mo&gt;(&lt;/m:mo&gt;&lt;m:mi&gt;a&lt;/m:mi&gt;&lt;m:mo&gt;+&lt;/m:mo&gt;&lt;m:mi&gt;b&lt;/m:mi&gt;&lt;m:mo&gt;)&lt;/m:mo&gt;
+                  &lt;/m:mrow&gt;
+                  &lt;m:mn&gt;2&lt;/m:mn&gt;
+               &lt;/m:msup&gt;
+            &lt;/m:mrow&gt;
+         &lt;/m:mstyle&gt;
+         &lt;m:mo&gt;=&lt;/m:mo&gt;
+         &lt;m:mstyle id=&quot;term2&quot; mathbackground=&quot;lightyellow&quot;&gt;
+            &lt;m:mrow&gt;
+               &lt;m:msup&gt;&lt;m:mi&gt;a&lt;/m:mi&gt;&lt;m:mn&gt;2&lt;/m:mn&gt;&lt;/m:msup&gt; 
+               &lt;m:mo&gt;+&lt;/m:mo&gt;
+               &lt;m:mn&gt;2&lt;/m:mn&gt;
+               &lt;m:mi&gt;a&lt;/m:mi&gt;
+               &lt;m:mi&gt;b&lt;/m:mi&gt;
+               &lt;m:mo&gt;+&lt;/m:mo&gt;
+               &lt;m:msup&gt;&lt;m:mi&gt;b&lt;/m:mi&gt;&lt;m:mn&gt;2&lt;/m:mn&gt;&lt;/m:msup&gt; 
+            &lt;/m:mrow&gt;
+         &lt;/m:mstyle&gt;
+      &lt;/m:mrow&gt;
+   &lt;/m:math&gt;
+&lt;/p&gt;
+&lt;p&gt;
+   &lt;form&gt;
+      &lt;input type=button value=&quot;Show Next Step&quot; onClick=&quot;handleClick()&quot;&gt;
+   &lt;/form&gt;
+&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+</td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+<p><!-- after.inc: after content -->
+
+						<div align=center>
+							<a class="screenonly" href="#top">Top of page</a><br><br>
+							<p><small>
+								Copyright ?000-2002 by Design Science, Inc. All rights reserved.<br>
+								<span class="screenonly">Comments on our Web site? Mail to the <a href="mailto:support@dessci.com">webmaster.</a></span>
+							</small></p>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+<!-- end of after.inc -->
+
+</p>
+</body>
+</html>
